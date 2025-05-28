@@ -1,0 +1,22 @@
+{
+    "name": "cucumber-mathematics",
+    "version": "1.0.0",
+    "description": "BDD testing for vegetable mathematics using Cucumber",
+    "main": "index.js",
+    "scripts": {
+      "test": "cucumber-js",
+      "test:report": "cucumber-js --format json:cucumber_report.json"
+    },
+    "keywords": [
+      "cucumber",
+      "bdd",
+      "testing",
+      "automation"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@cucumber/cucumber": "^9.1.2",
+      "chai": "^4.3.7"
+    }
+  }
